@@ -15,14 +15,14 @@ digitalRead(PIR);
 if ( digitalRead(PIR) == HIGH) // turn on LED when motion detected by PIR
 {
 digitalWrite(LED, HIGH);   // turn the LED on (HIGH is the voltage level)
-delay(5000);              // wait for a second
+delay(5000);              // wait for 5 seconds
 digitalWrite(LED, LOW);    // turn the LED off by making the voltage LOW
 delay(5000);
 }
 
 else {
 digitalWrite(LED, HIGH);   // turn the LED on (HIGH is the voltage level)
-delay(250);              // wait for a second
+delay(250);              // wait for 0.25 seconds
 digitalWrite(LED, LOW);    // turn the LED off by making the voltage LOW
 delay(250);
 }
